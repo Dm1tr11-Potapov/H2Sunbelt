@@ -1,0 +1,34 @@
+{% load static %}
+{{ '<' }}{{ '!DOCTYPE html>' }}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+  <div class = "container backpic">
+    <div class = "container header">
+      <div class = "container logo"> H2Sunbelt </div>
+      <div class = "container menu">
+        <div id="div_top_hypers">
+          <ul id="ul_top_hypers">
+            {% for key, value in menu.items %}
+            <li>&#8227; <a href="{{ value }}" class="a_top_hypers">{{key}}</a></li>
+            {% endfor %}
+            <li> <a href="" class="a_top_hypers"> <img
+              class="icon"
+              src="https://kenka.ru/local/templates/newdealer/images/search.png"
+              alt="magnifying glass" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="maintheme container"><h1>{{title}}</h1></div>
+  </div>
+  <div class = "content">
+        {% block content %}
+        {% endblock %}
+  </div>
+</body>
+</html>

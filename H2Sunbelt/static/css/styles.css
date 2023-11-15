@@ -1,0 +1,138 @@
+#div_top_hypers {
+  display:inline;
+  height: 30px;
+  text-align: center;
+  font-size: large;
+  vertical-align: middle;
+  color: white;
+}
+
+#ul_top_hypers li{
+  display: inline;
+  color: white;
+}
+
+#ul_top_hypers {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  padding: 10px;
+  padding-top: 5px;
+  color: white;
+}
+
+#h4 {
+color: green
+}
+
+.a_top_hypers{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.container {
+  display: grid;
+  margin: auto;
+  gap: 10px;
+  padding: 5px;
+ /* border: 1px solid rgba(53, 52, 47, 0.171);*/
+}
+
+.header {
+  grid-template-columns:150px minmax(600px, auto);
+  margin: 0px;
+  margin-top: 0px;
+  height: 50px;
+  padding: 0px;
+  background-color: rgba(65, 66, 56, 0.815);
+}
+
+.logo {
+  border: 1px solid black;
+  width: 150px;
+  justify-content: center;
+  justify-items: flex-start;
+  margin-left: 10px;
+  font-size: x-large;
+  color: white;
+}
+
+.menu {
+  border: 1px solid black;
+  justify-content: center;
+  justify-items: flex-start;
+  margin-right: 10px;
+  font-size: x-large;
+  grid-template-columns:minmax(350px, auto);
+}
+
+.icon {
+  width: 15px;
+  padding-left: 10px;
+}
+
+.backpic {
+  height: 400px;
+  background: url("https://wp-uploads.storage.yandexcloud.net/uploads/2021/05/ses.jpg"), rgb(160, 160, 143);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 0px;
+}
+
+.maintheme {
+  height: 10vh;
+  display: grid;
+  justify-content: center;
+ /* border: 1px solid black;*/
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  margin-bottom: 165px;
+  }
+
+.item_1 {
+  text-align: center;
+  background-color: rgb(90, 247, 233);
+  margin: 0px;
+  padding: 2px;
+}
+
+.item_2 {
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+.container_item_3 {
+  display: grid;
+  margin: auto;
+  gap: 10px;
+  padding: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.item_3_1 {
+  width: 290px;
+}
+
+.item_3_2 {
+  width: 290px;
+}
+
+.item_3_3 {
+  width: 290px;
+}
+
+.item_4 {
+  text-align: center;
+  background-color: black;
+  color:white
+}
+
+.text1 {
+  margin: 2px;
+}
