@@ -3,7 +3,7 @@
 
 from django.shortcuts import render
 
-MENU = {"Home": "/", "Unser Ziel": "/goal", "Kontakt": "/about"}
+MENU = {"Home": "/", "Unser Ziel": "/goal", "Kontakt": "/about", "Feedback": "/feedback"}
 
 
 def main_page(request):

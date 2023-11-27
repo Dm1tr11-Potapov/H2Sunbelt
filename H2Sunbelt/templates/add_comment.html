@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="{% url 'thanks_page' %}" method="POST">
+    {% csrf_token %}
+    <label for="user_first_name"></label>
+    <input name="user_first_name" id="user_first_name">
+    <label for="user_last_name"></label>
+    <input name="user_last_name" id="user_last_name">
+    <label for="email"></label>
+    <input name="email" id="email">
+    <label for="feedback_frame"></label>
+    <input name="feedback_frame" id="feedback_frame">
+    <button type="button">Отправить</button>
+</form>
+
+{% endblock %}

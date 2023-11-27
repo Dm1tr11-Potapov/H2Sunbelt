@@ -1,11 +1,25 @@
-H2Sunbelt V1.
+Main note (About project):
+Created web page for H2Sunbelt
+3 pages: home, goal and about
+css implemented to django. pictures and java-script not implemented to django
+files in temp folder created with visual studio code.
+added and updted: README.MD
+Launch
+Clone repository
 
-Created web page for H2Sunbelt.
+git clone https://github.com/Dm1tr11-Potapov/H2Sunbelt.git
+cd H2Sunbelt
+Create virtual environment:
 
-3 pages: home, goal and about.
+python -m venv venv
+Launch venv:
 
-css implemented to django. pictures and java-script not implemented to django.
+.\venv\bin\activate.bat
+Install packages:
 
-Files in temp folder created with visual studio code.
+pip install -r requirements.txt
+Launch server:
 
-Added and updted: README.MD
+cd H2Sunbelt
+python manage.py runserver
+

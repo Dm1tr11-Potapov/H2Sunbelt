@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for el in guestbook %}
+  <div class="card">
+    {% if el.checkbox == True %}
+    <h3>{{el.user_first_name}} {{el.user_last_name}}:</h3>
+    <p>{{el.feedback_frame}}</p>
+    <hr class="hr-line">
+    {% endif %}
+  </div>
+{% endfor %}
+
+<div class="button">
+  <button class="button">
+    <a href="add_comment"> Leave comment</a>
+  </button>
+</div>
+
+{% endblock %}

@@ -136,3 +136,27 @@ color: green
 .text1 {
   margin: 2px;
 }
+
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+
+.button {
+    border: 0;
+    Line_height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb (150, 150, 150);
+    border-radius: 5px;
+    background-color: rgba(220, 0, 0, 1);
+
+}
+
+.card {
+    align: center;
+    }

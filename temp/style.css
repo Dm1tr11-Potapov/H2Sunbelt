@@ -119,6 +119,17 @@
 .item_3_3 {
   width: 100px;
 }
+
+.button {
+  border: 0;
+  Line_height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb (150, 150, 150);
+  border-radius: 5px;
+  background-color: rgba(220, 0, 0, 1);
+}
 /*
 
 .container {
